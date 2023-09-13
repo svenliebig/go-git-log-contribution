@@ -16,7 +16,7 @@ go install .
 add `<YOUR GIT NAME>` please and execute:
 
 ```sh
-git log --encoding=utf-8 --full-history --reverse "--format=format:%cs;%an;%ae" --author "<YOUR GIT NAME>" | git-log-contribution
+git log --encoding=utf-8 --full-history --reverse "--format=format:%cs;" --author "<YOUR GIT NAME>" | git-log-contribution
 ```
 
 prints out the duration that you have been consecutively commiting to this project (max gap 45 days):
